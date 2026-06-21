@@ -31,7 +31,3 @@ if ! command -v gnome-extensions-cli >/dev/null 2>&1; then
 else
   echo "gnome-extensions-cli is already installed."
 fi
-
-gnome-extensions-cli install \
-  tailscale-gnome-qs@tailscale-qs.github.io \
-  clipboard-indicator@tudmotu.com
