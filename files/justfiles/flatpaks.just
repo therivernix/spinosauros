@@ -24,3 +24,6 @@ install-flatpaks:
 
 update-flatpaks:
     flatpak update -y
+    
+remove-flatpaks:
+    flatpak uninstall -y org.gnome.Calendar
