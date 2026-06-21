@@ -26,6 +26,8 @@ modules:
         - micro
         - starship
         - steam
+        - firefox
+        - firefox-langpacks # also remove firefox dependency
     #remove:
       #packages:
         # example: removing firefox (in favor of the flatpak)
@@ -41,16 +43,14 @@ modules:
         install: # system flatpaks we want all users to have and not remove
          # - org.mozilla.firefox
           - ca.desrt.dconf-editor
-          - io.github.flattool.Ignition
           - page.codeberg.libre_menu_editor.LibreMenuEditor
-
       - scope: user # Also add Flathub user repo, but no user packages
 
   - type: script
     scripts:
       - example.sh # example: run files/scripts/myscript.sh
       
-  - type: justfiles
-    validate: true
+   - type: justfiles
+     validate: true
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
