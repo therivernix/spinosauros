@@ -24,16 +24,3 @@ install-flatpaks:
 
 update-flatpaks:
     flatpak update -y
-    
-remove-flatpaks:
-    flatpak uninstall -y \
-        org.gnome.Calendar \
-        org.gnome.Contacts \
-        org.mozilla.firefox \
-        org.mozilla.thunderbird \
-        org.gnome.font-viewer \
-        org.gnome.Characters \
-        org.gnome.Maps \
-        org.gnome.DejaDup \
-        org.gnome.Connections \
-        org.gnome.Weather
