@@ -1,6 +1,5 @@
 install-flatpaks:
     flatpak install -y --user flathub \
-        org.gnome.Loupe \
         org.gnome.Decibels \
         org.gnome.Calculator \
         org.gnome.Snapshot \
