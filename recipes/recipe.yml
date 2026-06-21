@@ -61,5 +61,6 @@ modules:
       - Light Style
       - Night Theme Switcher
       - Quick Settings Audio Panel
+      - Restart To
  
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
