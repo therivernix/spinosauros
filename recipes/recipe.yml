@@ -52,9 +52,8 @@ modules:
       
   - type: justfiles
   
-  
   - type: gnome-extensions
     install:
-      - AppIndicator and KStatusNotifierItem Support
+      - Alphabetical App Grid
  
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
