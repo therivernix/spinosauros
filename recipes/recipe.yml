@@ -58,5 +58,6 @@ modules:
       - Hide minimized
       - Hot Edge
       - Just Perfection
+      - Light Style
  
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
