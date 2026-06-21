@@ -63,6 +63,6 @@ modules:
       - Quick Settings Audio Panel
       - Restart To
       - Smile - complementary extension
-      - Tailscale QS
+      - Tiling Assistant
  
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
