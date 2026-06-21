@@ -1,5 +1,2 @@
 [org.gnome.shell]
 always-show-log-out=true
-
-[org.gnome.shell.keybindings]
-toggle-quick-settings="['<Super>q']"
