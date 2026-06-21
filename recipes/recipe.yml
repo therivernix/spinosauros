@@ -35,54 +35,27 @@ modules:
 
   - type: default-flatpaks
     configurations:
-      - notify: true # Send notification after install/uninstall is finished (true/false)
+      - notify: false # Send notification after install/uninstall is finished (true/false)
         scope: system
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
          # - org.mozilla.firefox
-          - org.gnome.Loupe
           - com.mattjakeman.ExtensionManager
-          - org.gnome.Decibels
-          - org.gnome.Calculator
-          - org.gnome.Snapshot
-          - org.gnome.clocks
           - ca.desrt.dconf-editor
-          - org.gnome.baobab
-          - com.ranfdev.DistroShelf
-          - app.drey.EarTag
-          - com.fastmail.Fastmail
-          - org.fedoraproject.MediaWriter
-          - com.unicornsonlsd.finamp
-          - com.github.tchx84.Flatseal
-          - it.mijorus.gearlever
-          - io.m51.Gelly
-          - be.alexandervanhee.gradia
           - io.github.flattool.Ignition
-          - org.gnome.Loupe
-          - io.github.tobagin.keysmith
-          - org.libreoffice.LibreOffice
-          - org.gnome.Logs
           - page.codeberg.libre_menu_editor.LibreMenuEditor
           - io.missioncenter.MissionCenter
-          - org.gnome.Music
-          - md.obsidian.Obsidian
-          - org.kde.okular
-          - org.nickvision.tubeconverter
-          - com.github.PintaProject.Pinta
-          - org.remmina.Remmina
-          - org.signal.Signal
-          - it.mijorus.smile
           - org.gnome.NautilusPreviewer
-          - com.synology.SynologyDrive
           - org.gnome.TextEditor
-          - de.swsnr.turnon
-          - org.gnome.Showtime
           - io.github.flattool.Warehouse
-          - com.yubico.yubioath
+          - com.github.tchx84.Flatseal
       - scope: user # Also add Flathub user repo, but no user packages
 
   - type: script
     scripts:
       - example.sh # example: run files/scripts/myscript.sh
+      
+   - type: justfiles
+     validate: true
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
