@@ -20,7 +20,9 @@ install-flatpaks:
         de.swsnr.turnon \
         org.gnome.Showtime \
         com.yubico.yubioath \
-        org.gnome.World.PikaBackup
+        org.gnome.World.PikaBackup \
+        ca.desrt.dconf-editor \
+        page.codeberg.libre_menu_editor.LibreMenuEditor
 
 update-flatpaks:
     flatpak update -y
