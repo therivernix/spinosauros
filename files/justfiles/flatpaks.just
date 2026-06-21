@@ -6,7 +6,6 @@ install-flatpaks:
         org.gnome.Snapshot \
         org.gnome.clocks \
         org.gnome.baobab \
-        com.ranfdev.DistroShelf \
         app.drey.EarTag \
         com.fastmail.Fastmail \
         org.fedoraproject.MediaWriter \
