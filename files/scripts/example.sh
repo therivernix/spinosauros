@@ -6,4 +6,4 @@
 set -oue pipefail
 
 # Your code goes here.
-rm -rf /usr/share/gnome-shell/extensions/search-light@icedman.github.com
+# rm -rf /usr/share/gnome-shell/extensions/search-light@icedman.github.com
