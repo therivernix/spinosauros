@@ -36,4 +36,4 @@ remove-flatpaks:
         org.gnome.Maps \
         org.gnome.DejaDup \
         org.gnome.Connections \
-        org.gnome.Weather \
+        org.gnome.Weather
