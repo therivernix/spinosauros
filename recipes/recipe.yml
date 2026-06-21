@@ -56,5 +56,6 @@ modules:
     install:
       - Alphabetical App Grid
       - Hide minimized
+      - Hot Edge
  
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
