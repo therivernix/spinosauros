@@ -1,21 +1,6 @@
 [org/gnome/shell]
 always-show-log-out=true
-enabled-extensions=[
-  'AlphabeticalAppGrid@stuarthayhurst',
-  'appindicatorsupport@rgcjonas.gmail.com',
-  'blur-my-shell@aunetx',
-  'custom-command-list@storageb.github.com',
-  'dash-to-dock@micxgx.gmail.com',
-  'hotedge@jonathan.jdoda.ca',
-  'hide-minimized@danigm.net',
-  'appindicatorsupport@rgcjonas.gmail.com',
-  'just-perfection-desktop@just-perfection',
-  'light-style@gnome-shell-extensions.gcampax.github.com',
-  'nightthemeswitcher@romainvigier.fr',
-  'quick-settings-audio-panel@rayzeq.github.io',
-  'smile-extension@mijorus.it',
-  'tiling-assistant@leleat-on-github'
-]
+enabled-extensions=['AlphabeticalAppGrid@stuarthayhurst','appindicatorsupport@rgcjonas.gmail.com','blur-my-shell@aunetx','custom-command-list@storageb.github.com','dash-to-dock@micxgx.gmail.com','hotedge@jonathan.jdoda.ca','hide-minimized@danigm.net','just-perfection-desktop@just-perfection','light-style@gnome-shell-extensions.gcampax.github.com','nightthemeswitcher@romainvigier.fr','quick-settings-audio-panel@rayzeq.github.io','smile-extension@mijorus.it','tiling-assistant@leleat-on-github']
 
 [org/gnome/mutter]
 dynamic-workspaces=false
