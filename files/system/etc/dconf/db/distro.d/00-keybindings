@@ -18,26 +18,6 @@ toggle-message-tray=['<Super>n']
 [org/gnome/settings-daemon/plugins/media-keys]
 media-static=['gnome-control-center']
 control-center=['AudioMedia']
-custom-keybindings=[
-'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/',
-'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/',
-'/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/'
-]
-
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
-name='Terminal'
-command='ptyxis'
-binding='<Super>Return'
-
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
-name='Settings'
-command='gnome-control-center'
-binding='<Super>i'
-
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
-name='Gradia'
-command='flatpak run be.alexandervanhee.gradia --screenshot=INTERACTIVE'
-binding='<Super>Print'
 
 [org/gnome/desktop/wm/keybindings]
 close=['<Super>w']
