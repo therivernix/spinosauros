@@ -1,3 +1,15 @@
+[org/gnome/shell]
+always-show-log-out=true
+
+[org/gnome/mutter]
+dynamic-workspaces=false
+
+[org/gnome/desktop/wm/preferences]
+num-workspaces=4
+
+[org/gnome/desktop/interface]
+enable-hot-corners=false
+
 [org/gnome/shell/keybindings]
 toggle-quick-settings=['<Super>q']
 focus-active-notification=['<Shift><Super>n']
