@@ -1,5 +1,5 @@
 install-flatpaks:
-    flatpak install -y --user flathub \
+    flatpak install -y --user \
         org.gnome.Decibels \
         org.gnome.Snapshot \
         org.gnome.clocks \
