@@ -1,0 +1,6 @@
+[org/gnome/shell/nightthemeswitcher/time]
+location=(50.900727669070911, 5.4187500000000002)
+manual-schedule=true
+nightthemeswitcher-ondemand-keybinding=['<Shift><Super>t']
+sunrise=7.0
+sunset=20.0

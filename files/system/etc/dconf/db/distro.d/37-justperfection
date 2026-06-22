@@ -1,0 +1,5 @@
+[org/gnome/shell/just-perfection]
+activities-button=true
+dash-app-running=false
+events-button=false
+support-notifier-showed-version=36

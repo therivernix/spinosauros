@@ -1,0 +1,4 @@
+[org/gnome/shell/extensions/caffeine]
+cli-toggle=false
+indicator-position-max=2
+user-enabled=true

@@ -1,0 +1,14 @@
+[org/gnome/shell/clipboard-indicator]
+blink-icon-on-copy=true
+clear-history-interval=1440
+clear-history-on-interval=true
+clear-on-boot=true
+disable-down-arrow=true
+display-mode=0
+excluded-apps=['1password']
+next-history-clear=1781441100
+open-at-cursor=true
+paste-on-select=true
+strip-text=true
+toggle-menu=['<Super>v']
+

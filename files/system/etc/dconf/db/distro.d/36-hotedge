@@ -1,0 +1,3 @@
+[org/gnome/shell/hotedge]
+fallback-in-use=false
+show-animation=false

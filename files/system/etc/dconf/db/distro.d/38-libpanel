@@ -1,0 +1,4 @@
+[org/gnome/shell/libpanel]
+alignment='right'
+layout=[['gnome@main', 'quick-settings-audio-panel@rayzeq.github.io/main']]
+single-column=false
