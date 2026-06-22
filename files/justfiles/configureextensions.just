@@ -1,6 +1,6 @@
 configure-extensions:
     set -e
-    FILE="/etc/extension-settings.dconf"
+    FILE="/etc/customscripts/extension-settings.dconf"
     if [ ! -f "$FILE" ]; then
       echo "Missing dconf file: $FILE"
       exit 1
