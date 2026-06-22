@@ -1,6 +1,5 @@
 install-flatpaks:
-    flatpak install -y --user \
-        org.gnome.Decibels \
+    flatpak install -y flathub org.gnome.Decibels \
         org.gnome.Snapshot \
         org.gnome.clocks \
         app.drey.EarTag \
