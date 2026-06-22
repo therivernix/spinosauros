@@ -59,7 +59,7 @@ modules:
       - Restart To
       - Smile - complementary extension
       - Tiling Assistant
-     # - Custom Command Menu
+      - Custom Command Menu
       
   - type: gschema-overrides
  
