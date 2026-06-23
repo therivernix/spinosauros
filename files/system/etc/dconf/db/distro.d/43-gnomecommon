@@ -11,3 +11,4 @@ button-layout=':close'
 
 [org/gnome/desktop/interface]
 enable-hot-corners=false
+enable-animations=false 
