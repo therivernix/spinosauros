@@ -7,6 +7,7 @@ dynamic-workspaces=false
 
 [org/gnome/desktop/wm/preferences]
 num-workspaces=4
+button-layout=':close'
 
 [org/gnome/desktop/interface]
 enable-hot-corners=false
