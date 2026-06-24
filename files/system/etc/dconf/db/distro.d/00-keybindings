@@ -35,6 +35,6 @@ switch-to-workspace-down=['<Control><Alt>Down']
 switch-to-workspace-up=['<Control><Alt>Up']
 switch-to-workspace-left=['<Control><Super>Left']
 switch-to-workspace-right=['<Control><Super>Right']
-switch-to-workspace-last=['<Control><Super>0']
+switch-to-workspace-last=['<Control>0']
 
 toggle-fullscreen=['<Super>f']
