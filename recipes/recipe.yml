@@ -43,7 +43,7 @@ modules:
 
   - type: script
     scripts:
-      - example.sh # example: run files/scripts/myscript.sh
+      - system-extensions.sh # example: run files/scripts/myscript.sh
       
   - type: justfiles
   
